@@ -14,6 +14,14 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "account-username"
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -27,4 +35,6 @@
       "favicon": "./assets/favicon.png"
     }
   }
+
+  
 }

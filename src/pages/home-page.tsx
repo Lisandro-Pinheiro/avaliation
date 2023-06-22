@@ -2,7 +2,6 @@ import { View, Text, FlatList, StyleSheet } from "react-native";
 import { Image } from "expo-image"
 import CountryEntity from "../entities/country-entity";
 import { useState, useEffect } from "react";
-import TextComponent from "./components/text-component";
 
 
 export default function HomePage() {
